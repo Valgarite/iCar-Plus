@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+button{
+    color: black;
+}
+input{
+    color: black;
+}
+
+main {
+    display: flex;
+}
+
+#logo {
+    width: 100%;
+}
+
+#controles {
+    width: 25%;
+    max-height: 50%;
+    max-width: 25%;
+    background-color: rgb(127, 158, 170);
+    display: inline-block;
+    border: 10px groove #404040;
+}
+
+.control {
+    width: 90%;
+    margin-inline: 0.5em;
+}
+
+#registros {
+    width: 75%;
+}
+
+#lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+}
+
+.card {
+    color: rgb(255, 255, 255);
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    /* padding: 0.2em; */
+    margin: 0.3em;
+    border-top: 20px outset #498b97;
+    border-right: 12px inset #5182a8;
+    border-bottom: 10px inset #5665b9;
+    border-left: 8px outset #515eac;
+}
+
+.card>img {
+    width: 100%;
+    /* height:100%; */
+    object-fit: scale-down;
+    overflow: hidden;
+    background-color: black;
+}
+
+.info {
+    display: flex;
+}
+
+.info1,
+.info2 {
+    flex: 1;
+    /* Ambos toman la misma cantidad de espacio */
+    border: 1px solid black;
+    /* Borde de los elementos de información */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    padding-inline: 0.5em;
+}
+
+.editar {
+    bottom: auto;
+    width: 50%;
+}
+
+.eliminar {
+    bottom: auto;
+    width: 50%;
+}
+
+.desc {}
+
+/* .tipo{}
+.marca{}
+.year{}
+.modelo{} */

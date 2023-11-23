@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<carros>
+    <carro id="0">
+        <descripcion>Un vehículo compacto y eficiente, ideal para la ciudad</descripcion>
+        <imagen>imagen_carro1.jpg</imagen>
+        <marca>Toyota</marca>
+        <modelo>Corolla</modelo>
+        <tipo>Sedán</tipo>
+        <year>2020</year>
+    </carro>
+    <carro id="1">
+        <descripcion>Camioneta robusta y espaciosa, perfecta para viajes largos</descripcion>
+        <imagen>imagen_carro2.jpg</imagen>
+        <marca>Ford</marca>
+        <modelo>Explorer</modelo>
+        <tipo>SUV</tipo>
+        <year>2021</year>
+    </carro>
+</carros>
